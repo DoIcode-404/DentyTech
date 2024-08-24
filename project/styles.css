@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+
+.nav {
+  height: 70px;
+  width: 100%;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.menu h1 {
+  font-size: 15px;
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+.menu h1:hover {
+  background-color: orangered;
+  border: none;
+}
+.nav .bx-menu-alt-right {
+  border: 2px solid black;
+  padding: 1px;
+  border-radius: 50px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.logo h1 {
+  font-size: 18px;
+}
+.logo i {
+  background-color: orangered;
+}
+
+.nav button {
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #fff;
+}
+.nav button:hover {
+  color: white;
+  background-color: orangered;
+}
+.nav .btn-2 {
+  color: white;
+  background-color: orangered;
+  border: none;
+}
+.nav .btn-2:hover {
+  color: black;
+  background-color: white;
+  border: none;
+}
+
+.main > h1 {
+  font-size: 140px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+img {
+  height: 350px;
+  width: 350px;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+.img1 {
+  transform: translate(-50%, -50%) rotate(-40deg);
+}
+.img2 {
+  transform: translate(-50%, -50%) rotate(-30deg);
+}
+.img3 {
+  transform: translate(-50%, -50%) rotate(-20deg);
+}
+.img4 {
+  transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+.left {
+  position: absolute;
+  top: 90%;
+  left: 5%;
+}
+.right {
+  position: absolute;
+  top: 90%;
+  right: 5%;
+}
+.right i {
+  margin: 5px;
+  color: white;
+  background-color: orangered;
+}
